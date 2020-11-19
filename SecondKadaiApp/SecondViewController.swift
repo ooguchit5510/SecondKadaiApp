@@ -18,7 +18,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
 
         if name != "" {
-            greetingLabel.text = "こんにちは、\(name)さん"
+            greetingLabel.text = "こんにちは、\(name!)さん"
         } else {
             greetingLabel.text = "こんにちは、(No Name)さん"
         }
